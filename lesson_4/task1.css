@@ -1,0 +1,30 @@
+a {
+  font-family:Impact;
+  color:white;
+  margin-left:15px;
+  text-decoration:none;
+}
+-span {
+  font-family:Impact;
+  color:white;
+  margin-left:15px;
+}
+.menu {
+  width:900px;
+ -height:50px;
+  background-color:#a64dff;
+  padding-left:50px;
+  text-align:center;
+}
+.travels {
+  color:grey;
+  background-color:#eeeeee;
+  padding:5px;
+  text-decoration:underline;
+}
+.float {
+  margin-left:150px;
+  font-family:Impact;
+  color:white;
+  possition:absolute;
+}

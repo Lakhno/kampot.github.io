@@ -1,0 +1,45 @@
+.letter {
+  width:500px;
+  font-size:90px;
+  color:grey;
+  text-align:justify;
+}
+hr {
+  border-color:red;
+}
+-.line01 {
+  font-size:calc(1em - 1em/12);
+}
+.line02 {
+  font-size:calc(1em - 1em/12);
+}
+.line03 {
+  font-size:calc(1em - 2em/12);
+}
+.line04 {
+  font-size:calc(1em - 3em/12);
+}
+.line05 {
+  font-size:calc(1em - 4em/12);
+}
+.line06 {
+  font-size:calc(1em - 5em/12);
+}
+.line07 {
+  font-size:calc(1em - 7em/12);
+}
+.line08 {
+  font-size:calc(1em - 8em/12);
+}
+.line09 {
+  font-size:calc(1em - 9em/12);
+}
+.line10 {
+  font-size:calc(1em - 9.5em/12)
+}
+.line11 {
+  font-size:calc(1em - 10em/12);
+}
+.line12 {
+  font-size:calc(1em - 11em/12);
+}

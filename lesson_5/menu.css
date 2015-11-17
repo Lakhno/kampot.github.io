@@ -1,0 +1,44 @@
+.menu {
+  text-align:center;
+  border:1px solid;
+  width:900px;
+  height:34px;
+  background: #1aa4ff;
+}
+.more {
+  float:right;
+  margin-right:20px;
+}
+li {
+  
+  font-family:impact;
+  text-aligin:center;
+  display:inline;
+  font-size:20px;
+  margin-left:8px;
+  
+}
+li a {
+  vertical-align:midle;
+  border:1px solid orange;
+  color:#afa69f;
+  background: #eeeeee;
+}
+a {
+  vertical-align:midle;
+  text-decoration:none;
+}
+li ul {
+  vertical-align:midle;
+  border:1px solid lime;
+  font-family:Impact;
+  width:900px;
+  position:absolute;
+  display:none;
+  margin-left:-40px;
+  margin-top:15px;
+  background:#eeeeee;
+}
+li:hover ul {
+  display:block;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>'Шахматная доска'</p>
+
+
+
+<script>
+  function makeBoard(size) {
+  for (var a = 0; a < size; a++) {
+    var string = '# # # #';
+    if (a % 2 === 0) {
+      string = ' ' + string;
+    } else {
+      string = string + ' ';
+    }
+    console.log(string);
+  }
+}
+makeBoard(8);
+  </script>
+
+</body>
+</html>

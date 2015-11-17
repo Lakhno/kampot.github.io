@@ -1,0 +1,47 @@
+.testimonias {
+width:1400px;
+height:315px;  background:url('http://i.piccy.info/i9/609ec801e0a0ba0623741cc67e70e076/1441662264/36619/943481/box.jpg')
+}
+.comment {
+  display:inline-block;
+  margin-left:25px;
+  margin-right:20px;
+}
+.name {
+  color:lightblue;
+  float:left;
+}
+.customer {
+  float:right;
+  color:lightblue;
+}
+.coment-box1 {
+display:absolute;
+margin-top:-240px;
+margin-left:250px;
+width:350px;
+height:100px;  
+display:inline-block;  background:url("http://i.piccy.info/i9/00eee02af9e9f44fce9af92c1c502abc/1441663199/1099/943481/comment.png");
+}
+.coment-box2 {
+background:url('http://i.piccy.info/i9/00eee02af9e9f44fce9af92c1c502abc/1441663199/1099/943481/comment.png');
+width:350px;
+margin-left:1000px;
+margin-top:-100px;
+}
+.ava1 {
+  margin-left:150px;
+}
+.ava2 {
+  margin-left:900px;
+  margin-top:-130px;
+}
+h2 {
+  padding-top:20px;
+  color:orange;
+  font-size:25px;
+  text-align:center;
+}
+.client {
+  color:lightblue;
+}

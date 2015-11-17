@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>'Введите имя пользователя'</p>
+
+<button onclick="myFunction()">button</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var imya = prompt ("укажите логин"," ");
+    var gody = prompt ("Напишите пароль здесь:"," ");
+  if (imya == "admin") {
+    alert(gody);
+  }
+  else {
+    document.write("Access denied ");
+  }
+  if (gody == "passw0rd") {
+document.write(" Wellcom Home!");
+  }
+  else {
+document.write("Wrong password");
+  }
+}
+  
+</script>
+
+</body>
+</html>

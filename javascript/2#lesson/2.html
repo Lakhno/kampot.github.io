@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>'Введите любое целое число?'</p>
+
+<button onclick="myFunction()">button</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var number = prompt("Введите целое число", "15?");
+    
+    if ( number > 0 ) {
+        document.getElementById("demo").innerHTML = "1" ;
+} 
+  else if ( number < 0) {
+    document.getElementById("demo").innerHTML = "-1";
+  }
+  else {
+    document.getElementById("demo").innerHTML ="0";
+  }
+}
+  
+</script>
+
+</body>
+</html>

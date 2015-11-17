@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Введите Ваше имя.</p>
+
+<button onclick="myFunction()">Поле ввода</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var person = prompt("Enter your name", "Sergey");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person;
+    }
+}
+</script>
+
+</body>
+</html>

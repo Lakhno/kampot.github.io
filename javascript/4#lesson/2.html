@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>'Проверка на СПАМ'</p>
+
+<script>
+  function checkSpam(str) {
+  var StrCase = str.toLowerCase();
+
+  return !!(~StrCase.indexOf('sex') || ~StrCase.indexOf('spam'));
+}
+
+alert( checkSpam('get new Sex videos') );
+alert( checkSpam('[SPAM] How to earn fast money') );
+alert( checkSpam('New PSD template') );
+  </script>  
+
+</body>
+</html>

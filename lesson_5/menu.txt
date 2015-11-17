@@ -1,0 +1,85 @@
+<ul class="menu">
+   <li><a href="#">home</a>
+   </li> 
+   <li><a href="#">news</a> 
+    <ul> 
+     <li><a href="#">Politice</a></li> 
+     <li><a href="#">Crime</a></li> 
+     <li><a href="#">Show-bissnes</a></li> 
+     <li><a href="#" class="brd">Hi-tech</a></li> 
+    </ul> 
+   </li>
+   <li><a href="#">economics</a> 
+    <ul> 
+     <li><a href="#">Word</a></li> 
+     <li><a href="#">Companies</a></li> 
+     <li><a href="#">Global trade</a></li> 
+     <li><a href="#" class="brd">Testing menu</a></li> 
+    </ul> 
+   </li> 
+    <li><a href="#">local</a>
+    <ul> 
+     <li><a href="#">Usa</a></li> 
+     <li><a href="#">Japan</a></li> 
+     <li><a href="#">Africa</a></li> 
+     <li><a href="#" class="brd">Europe</a></li> 
+    </ul> 
+   </li> 
+   <li><a href="#">sport</a> 
+    <ul> 
+     <li><a href="#">UEFA</a></li> 
+     <li><a href="linku2.html">snowboarding</a></li> 
+     <li><a href="#">NBA</a></li> 
+     <li><a href="#" class="brd">NHL</a></li> 
+    </ul> 
+   </li>
+   <li><a href="#">culture</a> 
+    <ul> 
+     <li><a href="#">Old-town</a></li> 
+     <li><a href="#">Orcestra</a></li> 
+     <li><a href="#">Oscar</a></li> 
+     <li><a href="#" class="brd">food core</a></li> 
+    </ul> 
+   </li> 
+    <li><a href="#">travels</a>
+    <ul> 
+     <li><a href="#">Amsterdam</a></li> 
+     <li><a href="#">Bahamas</a></li> 
+     <li><a href="#">Jamaica</a></li>
+     <li><a href="#">Las Vegas</a></li>
+     <li><a href="#">London</a></li>
+     <li><a href="#">Los Angeles</a></li>
+     <li><a href="#">Miami</a></li>
+     <li><a href="#">Montreal</a></li>
+     <li><a href="#">Paris</a></li>
+     <li><a href="#" class="brd">Rome</a></li> 
+    </ul> 
+   </li> 
+   <li><a href="#">living</a> 
+    <ul> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#" class="brd">Index</a></li> 
+    </ul> 
+   </li> 
+  <li><a href="#">money</a> 
+    <ul> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#" class="brd">Index</a></li> 
+      </ul> 
+   </li>
+  <li><a href="#">technology</a> 
+    <ul> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#">Index</a></li> 
+     <li><a href="#" class="brd">Index</a></li> 
+      </ul> 
+   </li>
+   <li><a href="#" class="more">More</a></li> 
+  </ul>
+  </ul>
+  </ul>

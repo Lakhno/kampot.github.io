@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Напишите программу, которая выводит через console.log все числа от 1 до 100, с двумя исключениями.</p>
+
+
+<script>
+for (var a = 1; a <= 100; a++ ) {
+  if (a % 3 === 0) {
+    console.log("FIIZ");
+  }
+  else if (a % 5 === 0 && a % 3 !== 0) {
+    console.log("BUZZ");
+  } else {
+    console.log(a);
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Какой сейчас год?</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var calendar = prompt("Какой сейчас год?", "2015?");
+    
+    if (calendar == "2015") {
+        document.getElementById("demo").innerHTML =
+        "Вы правы!" ;
+    }
+  else {
+    document.getElementById("demo").innerHTML = "С луны свалился? 2015!"
+  }
+}
+</script>
+
+</body>
+</html>
