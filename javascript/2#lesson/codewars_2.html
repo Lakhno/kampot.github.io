@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>We need a function that can transform a string into a number. What ways of achieving this do you know?<br>Examples:<br> stringToNumber("1234") == 1234;<br>stringToNumber("605" ) == 605;<br>stringToNumber("1405") == 1405;<br>stringToNumber("-7"  ) == -7;</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x1 = "1234";
+    var x2 = "605";
+    var x3 = "1405";
+    var x4 = "-7";
+
+    var n = 
+    Number(x1) + "<br>" + 
+    Number(x2) + "<br>" + 
+    Number(x3) + "<br>" + 
+    Number(x4) + "<br>";
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>
+</html>

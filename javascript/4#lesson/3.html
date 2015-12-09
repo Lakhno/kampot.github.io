@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>'Проверка на длину текста'</p>
+
+
+
+<script>
+  function myfunction(str, maxlength) {
+  if (str.length > maxlength) {
+    return str.slice(0, maxlength - 3) + '...';
+}
+
+  return str;
+}
+
+alert( truncate("В самом деле мы ломать код не хотели", 20) );
+alert( truncate("Ура получилось!", 20) );
+  </script>  
+
+</body>
+</html>

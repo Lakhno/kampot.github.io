@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>We need a function that can transform a number into a string.
+
+What ways of achieving this do you know? <br>Examples:<br>numberToString(123); // returns '123';<br>numberToString(999); // returns '999';</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var numberToString = 999;
+    var a = numberToString.toString();
+  var numberToString = 123;
+  var b = numberToString.toString();
+
+    var n = a + "<br>" + b + "<br>";
+
+    document.getElementById("demo").innerHTML=n;
+}
+</script>
+
+</body>
+</html>
